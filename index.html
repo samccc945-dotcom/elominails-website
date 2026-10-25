@@ -330,6 +330,8 @@
       font-weight: 650;
       line-height: 1.55;
     }
+    .address a { color: inherit; text-decoration: none; }
+    .address a:hover { text-decoration: underline; }
     .address-note { margin: 7px 0 17px; color: var(--muted); font-size: 14px; }
     .text-link {
       display: inline-flex;
@@ -695,7 +697,7 @@
       <div class="info-grid">
         <section class="info-section" aria-labelledby="visit-heading">
           <h3 id="visit-heading">Visit</h3>
-          <p class="address">Elomi Nails · Suite C<br>307 N US Highway 27 N<br>Minneola, FL 34715</p>
+          <p class="address"><a href="https://www.google.com/maps/dir/?api=1&amp;destination=307%20N%20US%20Highway%2027%20N%20Ste%20C%2C%20Minneola%2C%20FL%2034715%2C%20United%20States" target="_blank" rel="noopener noreferrer" aria-label="Get directions to Elomi Nails on Google Maps">Elomi Nails · Suite C<br>307 N US Highway 27 N<br>Minneola, FL 34715</a></p>
           <p class="address-note">Parking is available in front of and behind the plaza.</p>
           <button class="text-link" type="button" data-copy="307 N US Highway 27 N, Ste C, Minneola, FL 34715" data-message="Address copied">
             <svg aria-hidden="true" viewBox="0 0 24 24"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
